@@ -1,0 +1,14 @@
+/* Cabeçalho */
+.menu{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.logo img{
+    height: 50px;
+}
+.menu a:link, menu a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}

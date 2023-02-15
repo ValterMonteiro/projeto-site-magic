@@ -7,16 +7,26 @@
     background-color: #000;
     color: #fff;
 }
-
+.rodapeConteudo{
+    display: flex;
+}
 .rodape__social {
     display: flex;
 }
 
+.rodapeSocial__Contato{
+    display: flex;
+    align-items: first baseline;
+}
+
 .rodape__midia {
     display: block;
-
     width: 42px;
     height: 42px;
-
     margin: 2rem 1rem;
+}
+
+.rodape__Assuntos{
+    display: flex;
+    text-decoration: none;
 }
