@@ -14,6 +14,10 @@
     align-items: center;
 }
 
+.conteudoPrincipal img{
+    align-content: flex-end;
+}
+
 .textoPrincipal {
     color: #fff;
     text-transform: uppercase;
