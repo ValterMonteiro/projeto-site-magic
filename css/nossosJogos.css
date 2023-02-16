@@ -3,7 +3,7 @@
 .secaoNossosJogos{
     width: 100%;
     background-image: url('../img/bg-nossos-jogos.jpg');
-    /* margin-bottom: 8rem; */
+    background-repeat: no-repeat;
     padding: 8rem;
 }
 .secaoNossosJogosTitulo{

@@ -10,13 +10,21 @@
 .rodapeConteudo{
     display: flex;
 }
-.rodape__social {
+.rodapeSocial {
+    width: 100%;
     display: flex;
+    gap: 3%;
 }
 
+.rodapeSocial h2{
+    margin-top: 3rem;
+}
 .rodapeSocial__Contato{
+    width: 20%;
+    height: 150px;
+    align-items: flex-end;
     display: flex;
-    align-items: first baseline;
+    justify-content: space-around;
 }
 
 .rodapeSocial__Contato li{
@@ -27,17 +35,29 @@
     display: block;
     width: 42px;
     height: 42px;
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
+    background-color: #43484f;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .rodape__Assuntos{
     display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 3%;
+    width: 100%;
 }
 
+.rodape__Assuntos div{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    width: 40%;
+}
 .rodape__Assuntos__links{
     text-decoration: none;
     list-style-type: none;
-
+    margin-top: 1.5rem;
 }
 
 .rodape__Assuntos__links li {
@@ -52,11 +72,13 @@
 
 .rodape__Img__itens{
     padding: 30px;
-    /* margin-right: 30px;  */
+    margin-right: 30px; 
 }
 .rodape__PoliticaDoSite{
     background-color: #1f2026;
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -65,8 +87,11 @@
     margin: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 0.5rem;
 }
 
 .copyright{
     text-transform: uppercase;
+    font-size: 0.5rem;
+    margin: 1.5rem;
 }
