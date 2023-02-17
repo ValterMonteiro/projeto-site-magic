@@ -4,7 +4,8 @@
     width: 100%;
     background-image: url('../img/bg-nossos-jogos.jpg');
     background-repeat: no-repeat;
-    padding: 8rem;
+    padding-bottom: 8rem;
+    padding-bottom: 18rem;
 }
 .secaoNossosJogosTitulo{
     text-align: center;
@@ -13,7 +14,7 @@
 }
 .secaoNossosJogosArtigos{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
 }
 .secaoNossosJogosArtigos__Artigo{
